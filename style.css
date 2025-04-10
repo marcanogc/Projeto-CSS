@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #dddddd;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  header {
+    background-color: #3d265e;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 15px;
+  }
+  
+  .content {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  section {
+    background-color: orangered;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  aside {
+    background-color: orangered;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  aside h2 {
+    text-align: left;
+    font-size: 20px;
+    width: 300px;
+    margin: 0;
+    font-size: 30px;
+  }
+
+  aside ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 159, 80);
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #about .image img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  article {
+    background-color: rgb(255, 159, 80);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+footer {
+    background-color: #3d265e;
+    text-align: center;
+}
